@@ -4,6 +4,10 @@
 myName = input("Enter your name: ")
 print(myName)
 
-tempF = input("Enter a temperature in farenhiet: ")
-tempC = (tempF -32) * 5/9
+
+
+
+#Temperature Conversion
+tempF = eval(input("Enter a temperature in farenhiet: "))
+tempC = (tempF) -32 * 5/9
 print("The temperature in celcius is:", tempC)
